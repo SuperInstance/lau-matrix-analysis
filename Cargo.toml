@@ -1,0 +1,12 @@
+[package]
+name = "lau-matrix-analysis"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-matrix-analysis"
+description = "Matrix analysis: decompositions, perturbation theory, structured matrices, and matrix functions"
+
+[dependencies]
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
+serde = { version = "1", features = ["derive"] }
+num-traits = "0.2"
